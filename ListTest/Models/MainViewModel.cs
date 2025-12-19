@@ -15,7 +15,11 @@ namespace ListTest.Models
             set { _isLoading = value; OnPropertyChanged(); }
         }
 
-        public List<OrderRow> Orders { get;  set; } = new();
+        private List<OrderRow> _orders = new();
+        public List<OrderRow> Orders 
+        { 
+            get => _orders;  
+            set { _orders = value ?? new List<OrderRow>(); OnPropertyChanged(); }  }
 
         private void OnPropertyChanged([CallerMemberName] string? name = null)=> PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
     }

@@ -109,23 +109,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Corey.greene\\.nuget\\packages\\": {},
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Corey.greene\\source\\repos\\TestListFix\\ListTest\\ListTest.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\FootLevelers\\TestListFix\\ListTest\\ListTest.csproj",
       "projectName": "ListTest",
-      "projectPath": "C:\\Users\\Corey.greene\\source\\repos\\TestListFix\\ListTest\\ListTest.csproj",
-      "packagesPath": "C:\\Users\\Corey.greene\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Corey.greene\\source\\repos\\TestListFix\\ListTest\\obj\\",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\FootLevelers\\TestListFix\\ListTest\\ListTest.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\FootLevelers\\TestListFix\\ListTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Corey.greene\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

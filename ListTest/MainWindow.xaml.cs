@@ -29,7 +29,7 @@ namespace ListTest
             try
             {
                 await Application.Current.Dispatcher.InvokeAsync(() => { }, System.Windows.Threading.DispatcherPriority.Render);
-                var rows = _fakeSqlRepository.FetchData();
+                var rows = await Task.Run(() => _fakeSqlRepository.FetchData());
 
                 _vm.Orders = rows;
             }
